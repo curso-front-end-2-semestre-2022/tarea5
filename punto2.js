@@ -8,5 +8,5 @@ let pokemones =
  'Squirtle'
 ]
 
-const resultArray = pokemones.map(elemen => elemen.toUpperCase())
-console.log(resultArray)
+const pokemonesUpperCase = pokemones.map(elemen => elemen.toUpperCase())
+console.log(pokemonesUpperCase)
